@@ -1,0 +1,21 @@
+body{
+  overflow: hidden;
+  background-color: #000;
+}
+
+#instructions{
+  position: absolute;
+  top : 0px;
+  left : 5px;
+  color: #666;
+  font-family: 'Arial';
+  font-size: 15px;
+}
+
+#renderingCanvas{
+  background-color: transparent;
+}
+#blurCanvas{
+  background-color: transparent;
+  filter: blur(3px);
+}
